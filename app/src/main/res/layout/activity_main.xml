@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/simple_notif"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:text="Simple Notification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bigtetxt_notif"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:text="BigText Style Notification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/simple_notif" />
+
+    <Button
+        android:id="@+id/bigpicture_notif"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:text="Big Picture Style Notification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bigtetxt_notif" />
+
+    <Button
+        android:id="@+id/inbox_notif"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:text="Inbox Style Notification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bigpicture_notif" />
+
+    <Button
+        android:id="@+id/action_notif"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:text="Action Notification"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inbox_notif" />
+</androidx.constraintlayout.widget.ConstraintLayout>
